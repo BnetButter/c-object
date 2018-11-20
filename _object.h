@@ -12,7 +12,7 @@
 struct super
 {
     int count; 
-    const size_t * offset; // offset of base classes
+    const size_t * offset; // offset of base structs
     const struct class ** super;
 };
 
